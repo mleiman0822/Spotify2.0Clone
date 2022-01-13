@@ -34,11 +34,6 @@ function Sidebar() {
     <div className="text-gray-500 p-5 text-sm lg:text-sm border-r
     border-gray-900 overflow-y-scroll scrollbar-hide h-screen sm:max-w-[12rem] lg:max-w-[15rem] hidden md:inline-flex">
       <div className="space-y-4">
-      <button className="flex items-center space-x-2 hover:text-white" 
-      onClick={() => signOut()}>
-          <HomeIcon className="h-5 w-5" />
-          <p>Logout</p>
-        </button>
         <button className="flex items-center space-x-2 hover:text-white">
           <HomeIcon className="h-5 w-5" />
           <p>Home</p>
